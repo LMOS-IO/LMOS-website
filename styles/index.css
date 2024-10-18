@@ -46,6 +46,13 @@ body {
     width: 40%;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .hp_logo {
+        width: 70%;
+    }
+}
+
 .button-container{
     display: flex;
     flex-direction: row;
